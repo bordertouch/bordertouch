@@ -1,0 +1,34 @@
+.wrapper {
+  max-height: 100vh;
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+}
+
+.employees {
+
+}
+
+.table {
+  overflow: auto;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+
+.column {
+  display: inline-block;
+  width: 150px;
+}
+
+.radio-group {
+  display: grid;
+}
+
+.birthdays {
+  width: 500px;
+}
+
+.active {
+  color: blue
+}
