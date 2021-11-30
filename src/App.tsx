@@ -45,8 +45,8 @@ const App: React.FC = () => {
         <div className={'wrapper'}>
 
             <EmployeesBlock alphabet={alphabet} users={users} setUsers={setUsers} chosenEmployees={chosenEmployees}
-                            setChosenEmployees={setChosenEmployees}
-            />
+                            setChosenEmployees={setChosenEmployees}/>
+
             <BirthdaysBlock months={months} chosenEmployees={chosenEmployees}/>
 
         </div>)
